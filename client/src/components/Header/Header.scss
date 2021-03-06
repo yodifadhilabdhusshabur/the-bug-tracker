@@ -1,0 +1,23 @@
+@import '../../../variables.scss';
+
+#About {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  
+  background-color: rgb(219, 219, 219);
+  height: 80vh;
+  .headerBox {
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  #About {
+  height: auto  ;
+  }
+}

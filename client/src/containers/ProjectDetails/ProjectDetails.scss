@@ -1,0 +1,25 @@
+@media only screen and (max-width: 800px) {
+  #separator {
+    margin-top: 20px;
+  }
+}
+
+
+#ProjectIntro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  h2#ownerH2 {
+    text-transform: capitalize;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  #ProjectIntro{
+    display: block;
+  }
+  }
+

@@ -1,0 +1,32 @@
+.Box {
+  text-align: center;
+  width: 100% !important;
+  min-height: 200px !important;
+  padding: 10px;
+  transition: .3s ease-out !important;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0px 4px 5px rgb(136, 136, 136) !important;
+    transform: translateY(-5px);
+  }
+
+  .status {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  .controllers {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+  }
+}
+
+.teamBox {
+  background-color: #11161A !important;
+  color: white !important;
+}

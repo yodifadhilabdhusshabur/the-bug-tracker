@@ -1,0 +1,21 @@
+@import '../../../variables.scss';
+
+#authPage {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);   
+   min-height: 100vh;
+  padding-top: 60px;
+
+  #authForm {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  form  {
+    // text-align: center;
+    .inpWrapper {
+      margin-bottom: 12px !important;
+      display: block;
+    }
+  }
+}
